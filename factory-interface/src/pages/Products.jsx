@@ -84,11 +84,11 @@ const Products = () => {
 
     const isInitialMount = useRef(true);
     useEffect(() => {
-        if (isInitialMount.current) {
-            isInitialMount.current = false;
-        } else {
+       // if (isInitialMount.current) {
+       //     isInitialMount.current = false;
+       // } else {
             fetchProducts();
-        }
+       // }
     }, [search, sort, pagination.currentPage, pagination.itemsPerPage]);
 
     
