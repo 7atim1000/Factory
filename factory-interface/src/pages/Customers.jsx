@@ -88,11 +88,11 @@ const Customers = () => {
         
     const isInitialMount = useRef(true);
     useEffect(() => {
-        if (isInitialMount.current) {
-            isInitialMount.current = false;
-        } else {
+       // if (isInitialMount.current) {
+        //    isInitialMount.current = false;
+        //} else {
             fetchCustomers();
-        }
+       // }
     }, [search, sort, pagination.currentPage, pagination.itemsPerPage]);
 
     // Handle edit
