@@ -4,7 +4,7 @@ import BackButton from '../components/shared/BackButton'
 import { useSelector } from 'react-redux'
 import { FaCircleUser } from "react-icons/fa6";
 
-import SupplierInfo from '../components/buy/supplierInfo';
+import SupplierInfo from '../components/buy/SupplierInfo';
 
 import Bills from '../components/buy/Bills';
 import { IoMdArrowDropright } from "react-icons/io";
